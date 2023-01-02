@@ -1,5 +1,3 @@
-This directory contains several convenience libraries used by the rest of the
-tools and plugins.  Two of them (getopt and utf8) are shamelessly copied from
-vorbistools, one for manipulating UTF-8 strings (GPL) and one for implementing
-getopt (LGPL).  libFLAC does not link to either; the only FLAC tools that do
-are GPL'ed.
+version https://git-lfs.github.com/spec/v1
+oid sha256:3cf9f917f63ff0c08b9de6e728c4d7919080fab6dd7856d217c6af3e411cf6b7
+size 324

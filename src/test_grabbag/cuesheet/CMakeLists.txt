@@ -1,5 +1,3 @@
-add_executable(test_cuesheet
-    main.c
-    $<$<BOOL:${WIN32}>:../../../include/share/win_utf8_io.h>
-    $<$<BOOL:${WIN32}>:../../share/win_utf8_io/win_utf8_io.c>)
-target_link_libraries(test_cuesheet FLAC grabbag)
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ef1f99f73172b25ace7242bd472735f62b28355cbea7cf0f0b63a5411fcab94
+size 214

@@ -1,14 +1,3 @@
-add_library(grabbag STATIC
-    alloc.c
-    cuesheet.c
-    file.c
-    picture.c
-    replaygain.c
-    seektable.c
-    snprintf.c)
-target_link_libraries(grabbag PUBLIC
-    FLAC
-    replaygain_analysis)
-if(TARGET win_utf8_io)
-    target_link_libraries(grabbag PUBLIC win_utf8_io)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:388ddf6ae81d0b5afb00680efdac6bec187906765f1626299e908fee2cc8c8d3
+size 284

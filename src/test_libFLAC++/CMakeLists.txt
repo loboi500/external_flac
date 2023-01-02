@@ -1,10 +1,3 @@
-add_executable(test_libFLAC++
-    decoders.cpp
-    encoders.cpp
-    main.cpp
-    metadata.cpp
-    metadata_manip.cpp
-    metadata_object.cpp
-    $<$<BOOL:${WIN32}>:../../include/share/win_utf8_io.h>
-    $<$<BOOL:${WIN32}>:../share/win_utf8_io/win_utf8_io.c>)
-target_link_libraries(test_libFLAC++ FLAC++ test_libs_common grabbag)
+version https://git-lfs.github.com/spec/v1
+oid sha256:2155d2a943b3ca5328537202fbce51648af0203ea0f74334233d1919397e117e
+size 329

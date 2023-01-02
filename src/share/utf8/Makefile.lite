@@ -1,25 +1,3 @@
-#
-# GNU makefile
-#
-
-topdir = ../../..
-libdir = $(topdir)/objs/$(BUILD)/lib
-
-LIB_NAME = libutf8
-
-ifeq ($(OS),Darwin)
-    EXPLICIT_LIBS = $(libdir)/libgrabbag.a $(ICONV_LIBS)
-else
-    LIBS = -lgrabbag $(ICONV_LIBS)
-endif
-
-INCLUDES = -I$(topdir)/include
-
-SRCS_C = \
-	charset.c \
-	iconvert.c \
-	utf8.c
-
-include $(topdir)/build/lib.mk
-
-# DO NOT DELETE THIS LINE -- make depend depends on it.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2f574ea20da94c79e3eb7a9675bacb6f77f56832d50f6ca9f62f91b8266beac
+size 387

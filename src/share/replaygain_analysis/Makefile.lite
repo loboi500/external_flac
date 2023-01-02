@@ -1,15 +1,3 @@
-#
-# GNU makefile
-#
-
-topdir = ../../..
-
-LIB_NAME = libreplaygain_analysis
-INCLUDES = -I$(topdir)/include
-
-SRCS_C = \
-	replaygain_analysis.c
-
-include $(topdir)/build/lib.mk
-
-# DO NOT DELETE THIS LINE -- make depend depends on it.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3eda343854e4e5b583db859d3f6c3e207f06e9f9197cc8a6966fd179ef82310
+size 228

@@ -1,5 +1,3 @@
-add_executable(flacdiff
-    main.cpp
-    $<$<BOOL:${WIN32}>:../../../include/share/win_utf8_io.h>
-    $<$<BOOL:${WIN32}>:../../share/win_utf8_io/win_utf8_io.c>)
-target_link_libraries(flacdiff FLAC++)
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d37387617b3d91b16eb93cdfccafe0fe5dd206f5cd8c497b76a8dbc258a34ad
+size 200

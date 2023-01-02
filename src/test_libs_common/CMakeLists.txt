@@ -1,4 +1,3 @@
-add_library(test_libs_common STATIC
-    file_utils_flac.c
-    metadata_utils.c)
-target_link_libraries(test_libs_common PUBLIC FLAC)
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4e082d4d6d2d581c42d7ac7c36d3f6bb6b5e7e4a9fc74852d6a7cbf719753cf
+size 132

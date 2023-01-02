@@ -1,15 +1,3 @@
-@PACKAGE_INIT@
-
-include(CMakeFindDependencyMacro)
-find_dependency(Ogg)
-
-include("${CMAKE_CURRENT_LIST_DIR}/targets.cmake")
-
-if(TARGET FLAC::FLAC)
-    set(FLAC_FLAC_FOUND 1)
-endif()
-if(TARGET FLAC::FLAC++)
-    set(FLAC_FLAC++_FOUND 1)
-endif()
-
-check_required_components(FLAC)
+version https://git-lfs.github.com/spec/v1
+oid sha256:aaa11723595a451afd0443bbf19abdf45e9a3bb8af732a0e86cb6931282559a8
+size 275

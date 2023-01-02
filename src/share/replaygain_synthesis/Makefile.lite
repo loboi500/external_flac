@@ -1,15 +1,3 @@
-#
-# GNU makefile
-#
-
-topdir = ../../..
-
-LIB_NAME = libreplaygain_synthesis
-INCLUDES = -I./include -I$(topdir)/include
-
-SRCS_C = \
-	replaygain_synthesis.c
-
-include $(topdir)/build/lib.mk
-
-# DO NOT DELETE THIS LINE -- make depend depends on it.
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b03a31c46928f7169612bc9e18253e7dfbea32436bd8a9cbfba03d166d610e9
+size 242

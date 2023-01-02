@@ -1,8 +1,3 @@
-cmake_minimum_required(VERSION 3.12)
-
-add_library(plugin_common STATIC
-    charset.c
-    dither.c
-    replaygain.c
-    tags.c)
-target_link_libraries(plugin_common PUBLIC $<TARGET_NAME_IF_EXISTS:Iconv::Iconv>)
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a962d03d0bc42b834ff8fd8c3cf9630f21089dcea35b360cd5f1ec8aa4377b6
+size 209

@@ -1,7 +1,3 @@
-This commit is upto-date with following the commit in upstream-master
-Branch: upstream-master
-commit: ce6dd6b5732e319ef60716d9cc9af6a836a4011a
-
-upstream-master is in sync with upstream project at
-URL: https://github.com/xiph/flac.git
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:860270cd52ce301f8549c7ac3be03e5dfbb5ebab35826a5a9e96e5c514a95aa6
+size 235

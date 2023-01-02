@@ -1,11 +1,3 @@
-check_include_file("string.h" HAVE_STRING_H)
-
-find_package(Intl)
-
-add_library(getopt STATIC getopt.c getopt1.c)
-
-if(Intl_FOUND)
-    target_include_directories(getopt PRIVATE ${Intl_INCLUDE_DIRS})
-    target_link_libraries(getopt PUBLIC ${Intl_LIBRARIES})
-    target_compile_definitions(getopt PRIVATE HAVE_LIBINTL_H)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:f518a097c265aeaab17cd94f8b5f2f9171f16c6ef1b470246915ab39da72b568
+size 325

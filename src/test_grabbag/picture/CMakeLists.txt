@@ -1,5 +1,3 @@
-add_executable(test_picture
-    main.c
-    $<$<BOOL:${WIN32}>:../../../include/share/win_utf8_io.h>
-    $<$<BOOL:${WIN32}>:../../share/win_utf8_io/win_utf8_io.c>)
-target_link_libraries(test_picture FLAC grabbag)
+version https://git-lfs.github.com/spec/v1
+oid sha256:26610a8016b91e960bd9c8936778c4b6c9879cc63bf6d6a7ccbc40dae69daa28
+size 212

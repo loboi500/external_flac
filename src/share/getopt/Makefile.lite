@@ -1,16 +1,3 @@
-#
-# GNU makefile
-#
-
-topdir = ../../..
-
-LIB_NAME = libgetopt
-INCLUDES = -I$(topdir)/include
-
-SRCS_C = \
-	getopt.c \
-	getopt1.c
-
-include $(topdir)/build/lib.mk
-
-# DO NOT DELETE THIS LINE -- make depend depends on it.
+version https://git-lfs.github.com/spec/v1
+oid sha256:91c7f9de36b9a3d510e3cc0379b843d898c71202af45e12c8403cbb618bedf1f
+size 215

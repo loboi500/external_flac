@@ -1,17 +1,3 @@
-#include_directories("${CMAKE_CURRENT_SOURCE_DIR}")
-add_compile_options(-I${CMAKE_CURRENT_SOURCE_DIR}/)
-
-if(APPLE)
-    add_compile_options(-dOBJ_FORMAT_macho)
-elseif(WIN32)
-    #add_compile_options(-d OBJ_FORMAT_win32)
-    # FIXME the command above doesn't seem to work on Windows
-    set(CMAKE_ASM_NASM_FLAGS -dOBJ_FORMAT_win32)
-else()
-    add_compile_options(-dOBJ_FORMAT_elf)
-endif()
-
-add_library(FLAC-asm OBJECT
-    cpu_asm.nasm
-    fixed_asm.nasm
-    lpc_asm.nasm)
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0069f621ace628db75b67c86cd759a5d6900f16d735268203aadd7f8a24ec93
+size 470
